@@ -17,7 +17,7 @@ Todos los archivos .o son los archivos compilados.
 
 Se utilizaron los siguientes comandos de gcc:
 
-gcc <nombre>.c -o <nombre>.o
+gcc "nombre.c" -o "nombre.o"
 
-gcc -o <nombre>.o <nombre>.c <nombre.c ...
+gcc -o "nombre-1.o" "nombre-1.c" "nombre-2.c" ...
 
