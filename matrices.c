@@ -12,11 +12,11 @@ double dwalltime(){
 }
 
 
-int* matrix_declaration (int *M, int N){
+int* declaration_matrix(int *M, int N){
 	return M=(int*)malloc(sizeof(int)*N*N);
 }
 
-void init_matriz(int *A, int *R, int *Ai, int N){
+void init_matrix(int *A, int *R, int *Ai, int N){
 
   for(i=0;i<N;i++){
   	for(j=0;j<N;j++){
@@ -59,7 +59,7 @@ void print_matrix(int *M, int N, int o){
   }
 }
 
-void free_matriz(int *A, int *R, int *Ai){
+void free_matrix(int *A, int *R, int *Ai){
 	free(A);
   	free(Ai);
 	free(R);
