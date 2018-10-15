@@ -10,9 +10,11 @@ Main.c     --> Cada programa de C tiene una función principal que se debe llama
 
 
 :::Salidas:::
+
 Todos los archivos .o son los archivos compilados. 
 
 :::GCC::::
+
 Se utilizaron los siguientes comandos de gcc:
 
 gcc <nombre>.c -o <nombre>.o
