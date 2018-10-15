@@ -20,15 +20,15 @@ int main(int argc, const char* argv[]){
 	double timetick;
 
 	//print_hello();
-	A = matrix_declaration(A, N);
-	Ai = matrix_declaration(Ai, N);
-	R = matrix_declaration(R, N);
+	A = declaration_matrix(A, N);
+	Ai = declaration_matrix(Ai, N);
+	R = declaration_matrix(R, N);
 	
-	init_matriz(A, R, Ai,N);
+	init_matrix(A, R, Ai,N);
 
 	mullti_matrix(R, A, Ai,N);
 
 	print_matrix(R,N,0);
 
-	free_matriz(A,R,Ai);
+	free_matrix(A,R,Ai);
 }
