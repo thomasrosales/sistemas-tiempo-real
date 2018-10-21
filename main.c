@@ -26,7 +26,7 @@ int main(int argc, const char* argv[]){
 	
 	init_matrix(A, R, Ai,N);
 
-	mullti_matrix(R, A, Ai,N);
+	multi_matrix(R, A, Ai,N);
 
 	print_matrix(R,N,0);
 

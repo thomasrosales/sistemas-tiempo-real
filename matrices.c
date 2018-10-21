@@ -28,7 +28,7 @@ void init_matrix(int *A, int *R, int *Ai, int N){
 
 }
 
-void mullti_matrix(int *R, int *A, int *Ai, int N){
+void multi_matrix(int *R, int *A, int *Ai, int N){
 	/*   Multiplicacion de la Matriz A por Ai ordenada por columnas   */
 	for (i=0;i<N;i++){
     	for (j=0;j<N;j++){
