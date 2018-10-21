@@ -4,11 +4,8 @@
 #include <sys/time.h>
 #define DEBUG 0
 
-/*Resolver con Pthreads y OpenMP la siguiente expresión:
-Donde A es una matriz de NxN. Analizar el producto AA y utilizar la estrategia
-que proporcione el mejor tiempo de ejecución.
+/*A es una matriz de NxN. Analizar el producto AA
 Evaluar N=512, 1024 y 2048.*/
-//secuencial
 
 int N, *A, *Ai, *R;
 /* Funcion para calcular el tiempo de ejecucion */
@@ -19,6 +16,7 @@ double dwalltime(){
     sec = tv.tv_sec + tv.tv_usec/1000000.0;
     return sec;
 }
+
 /*
 	Imprime en la salida estandar
 	el contenido de la matriz NXN
