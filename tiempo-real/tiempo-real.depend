@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1540585673 source:/home/mint/Escritorio/sistemas-tiempo-real/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"matrices.h"
+
+1540150981 /home/mint/Escritorio/sistemas-tiempo-real/matrices.h
+
+1540151097 source:/home/mint/Escritorio/sistemas-tiempo-real/matrices.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"matrices.h"
+
+1540584799 source:/home/mint/Escritorio/sistemas-tiempo-real/tiempo-real/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1540585459 source:/home/mint/Escritorio/sistemas-tiempo-real/modules/modulo-1.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"../matrices.h"
+
+1540585469 source:/home/mint/Escritorio/sistemas-tiempo-real/modules/modulo-2.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"../matrices.h"
+
+1540585479 source:/home/mint/Escritorio/sistemas-tiempo-real/modules/modulo-3.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"../matrices.h"
+
+1540585486 source:/home/mint/Escritorio/sistemas-tiempo-real/modules/modulo-4.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"../matrices.h"
+
+1540585515 source:/home/mint/Escritorio/sistemas-tiempo-real/modules/modulo-5.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"../matrices.h"
+
+1540585527 source:/home/mint/Escritorio/sistemas-tiempo-real/modules/modulo-6.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"../matrices.h"
+
+1540585541 source:/home/mint/Escritorio/sistemas-tiempo-real/modules/modulo-7.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"../matrices.h"
+
